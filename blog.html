@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/blog.jpg">
+        <h2>Our Certificate & Online Programs For 2023</h2>
+        
+        <p>Niagara College (NC) is Canada’s leading global college with students from more than 90 countries studying at its Niagara Region campuses.</p>
+        <br>
+        <p>Boasting the largest number of Learning Enterprises in the country, NC’s unique learning enterprises include Canada’s first Teaching Winery, Teaching Brewery and Teaching Distillery, as well as the NC Greenhouse, and the Wine Visitor + Education Centre to name a few. As a culturally and globally engaged College, NC proudly offers partner delivery locations within Canada and around the world, including the Kingdom of Saudi Arabia, and in the past, China as well as South Korea.</p>
+        <br>
+        <p>NC also provides expert training to international institutions, governments, and corporations in a variety of fields including technical vocational education, leadership, gender equity, program development, applied research and capacity building.</p>
+        <br>
+        <p>Niagara College promotes diversity and inclusion in its academic programs. Program availability may vary from the website's listed status for some applicants. For more information, please contact your Global Business Development Manager.</p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>13</span>
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Together our campuses provide unique living laboratories and top notch facilities that deliver hands-on applied learning opportunities; world-class applied research; and smaller class sizes in an intimate and friendly environment.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/niagaracollege/"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/niagaracollege"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/niagaracollege/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/school/niagara-college-canada-international-division/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <a><p>made by Rishi Pancholi</p></a>
+</section>  
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
